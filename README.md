@@ -16,7 +16,7 @@ A modern, extensible CMS template built on Laravel 12 with a powerful extension 
 ### Installation
 
 ```bash
-composer create-project keendigit/cms-template my-cms-project
+composer create-project keendigit/laravel-cms my-cms-project
 cd my-cms-project
 ```
 
