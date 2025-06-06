@@ -1,0 +1,22 @@
+{
+    "name": "keendigit/hello-world-extension",
+    "description": "Hello World Extension for KeenDigit CMS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Extensions\\HelloWorld\\": ""
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Extensions\\HelloWorld\\Providers\\HelloWorldServiceProvider"
+            ]
+        }
+    }
+}

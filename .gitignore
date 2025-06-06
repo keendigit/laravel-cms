@@ -1,0 +1,50 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Laravel
+bootstrap/cache/*.php
+storage/*.key
+public/hot
+public/storage
+storage/logs/*.log
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+/public/build
+/public/mix-manifest.json
+
+# Extensions
+extensions/*/vendor/
+extensions/*/node_modules/
+extensions/*/.env*
+!extensions/*/.env.example
+
+# Testing
+.phpunit.result.cache
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

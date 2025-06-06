@@ -1,0 +1,14 @@
+{
+    "name": "Hello World",
+    "description": "A simple hello world extension to demonstrate the extension system",
+    "version": "1.0.0",
+    "author": "KeenDigit Team",
+    "class": "Extensions\\HelloWorld\\Extension",
+    "dependencies": {},
+    "requirements": {
+        "php": "^8.2",
+        "laravel": "^12.0"
+    },
+    "keywords": ["example", "demo", "hello-world"],
+    "license": "MIT"
+}
