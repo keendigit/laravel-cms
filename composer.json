@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "keendigit/cms-template",
+    "name": "keendigit/laravel-cms",
     "type": "project",
     "description": "Laravel 12 CMS Template with Extension System - A modern CMS framework with hot-pluggable extensions",
     "keywords": ["laravel", "cms", "template", "extensions", "keendigit", "extensible", "modular"],
@@ -8,15 +8,15 @@
     "authors": [
         {
             "name": "KeenDigit Team",
-            "email": "team@keendigit.com"
+            "email": "keendigitcom@gmail.com"
         }
     ],
-    "homepage": "https://github.com/keendigit/cms-template",
+    "homepage": "https://github.com/keendigit/laravel-cms",
     "readme": "README.md",
     "support": {
-        "issues": "https://github.com/keendigit/cms-template/issues",
-        "source": "https://github.com/keendigit/cms-template",
-        "docs": "https://docs.keendigit.com/cms-template"
+        "issues": "https://github.com/keendigit/laravel-cms/issues",
+        "source": "https://github.com/keendigit/laravel-cms",
+        "docs": "https://docs.keendigit.com/laravel-cms"
     },
     "require": {
         "php": "^8.2",
