@@ -20,22 +20,25 @@ composer create-project keendigit/laravel-cms my-cms-project
 cd my-cms-project
 ```
 
-### Environment Setup
+### Complete Setup
 
 ```bash
-# Copy environment configuration
-cp .env.example .env
+# Install dependencies and lock versions
+composer install
 
-# Configure your database
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=your_database_name
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
+# Configure your database in .env file:
+# DB_CONNECTION=pgsql
+# DB_HOST=127.0.0.1
+# DB_PORT=5432
+# DB_DATABASE=your_database_name
+# DB_USERNAME=your_username
+# DB_PASSWORD=your_password
 
 # Generate application key
 php artisan key:generate
+
+# Finalize CMS setup (merges routes, publishes assets)
+php artisan cms:finalize-setup
 
 # Run migrations
 php artisan migrate --seed
