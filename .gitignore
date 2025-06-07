@@ -26,6 +26,7 @@ storage/framework/views/*
 *.swp
 *.swo
 .claude
+design
 
 # OS
 .DS_Store
