@@ -1,6 +1,7 @@
 # Dependencies
 /vendor
 /node_modules
+composer.lock
 
 # Environment files
 .env
@@ -9,6 +10,7 @@
 
 # Laravel
 bootstrap/cache/*.php
+!bootstrap/cache/.gitkeep
 storage/*.key
 public/hot
 public/storage
