@@ -27,5 +27,4 @@ return Application::configure(basePath: dirname(__DIR__))
     ->useAppPath(realpath(__DIR__.'/../core/app'))
     ->useConfigPath(realpath(__DIR__.'/../core/config'))
     ->useDatabasePath(realpath(__DIR__.'/../core/database'))
-    ->useResourcePath(realpath(__DIR__.'/../core/resources'))
     ->useBootstrapPath(realpath(__DIR__)); 
