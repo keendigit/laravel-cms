@@ -26,7 +26,10 @@ storage/framework/views/*
 *.swp
 *.swo
 .claude
-design
+.cursor
+.chatgpt
+.cursorrules
+/design
 
 # OS
 .DS_Store
